@@ -1,5 +1,6 @@
 let arrayCards = []
 let counter = 0
+/*imagens das cartas */
 let frontImages=[`img src="images/unicornparrot.gif" alt="unicornparrot"`,
     `img src="images/bobrossparrot.gif" alt="bobrossparrot"`,
     `img src="images/explodyparrot.gif" alt="explodyparrot"`,
@@ -104,7 +105,7 @@ function notPairYet(){
         front.classList.remove("back-face-turn")   
         front.classList.add("back-face")}
 }
-
+/* funçoes do jogo */
 function youWIn(){
     firstCard = undefined
     secondCard = undefined

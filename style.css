@@ -52,7 +52,7 @@ h1{
   transform: rotateY(180deg);
 }
 
-/* Add in card-game */
+
 .back-face-turn {
   transform: rotateY(0deg);
 }
